@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Emulator",
+    "caps": {
+      "platformName": "Android",
+      "deviceName": "Pixel 2",
+      "appPackage": "com.google.android.apps.maps",
+      "appActivity": "com.google.android.maps.MapsActivity",
+      "automationName": "uiautomator2"
+    },
+  },
+
+  {
+    "name": "SauceLabs",
+    "caps": {
+      "platformName": "Android",
+      "platformVersion": "12.0",
+      "deviceName": "Google Pixel 4 XL GoogleAPI Emulator",
+      "deviceOrientation": "portrait",
+      "app": "storage:filename=mda-1.0.13-15.apk",
+      "appPackage": "com.google.android.apps.maps",
+      "appActivity": "com.google.android.maps.MapsActivity",
+      "automationName": "uiautomator2"
+    },
+  }
+]

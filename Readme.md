@@ -15,22 +15,3 @@ mvn test && allure generate --clean && allure open
 ~~~
 
 * You can also run the tests by selecting `RunTests.xml` and running it using the TestNG runner.
-
-<h3 align="left"> Project Structure </h3>
-
-The `src` folder contains all packages related to the tests
-
-* Driver folder contains the DriverManager class which starts the appium server and instantiates the driver
-
-* PageObjects folder contains classes that handle all page related details like page elements and actions against those elements
-
-* Resources folder contains test data and config required to run the tests
-
-* Utilities folder has framework helpers like reusable actions (CommonMethods) 
-
-* Listeners folder has all test listeners in use like reporting and retry mechanism 
-
-
-<h3 align="left"> Reporting </h3>
-
-Allure report is used for reporting. The setup done is very basic and the report generated is mostly empty. The objective here was to integrate some reporting framework which could be utilised once the framework scales.
